@@ -10,6 +10,8 @@
 
 ## Client side API
 
+requirements: zepto or jquery. if you don't like this feel free to fork and write a compatibility layer that uses `querySelector`!
+
 ```javascript
 // after loading the fold.js script tag you get a new global variable 'fold'
 
@@ -42,6 +44,10 @@ var fold = require('fold')
 fold({'.foo', "bar"}, '<div class="foo"></div>')
 // => <div class="foo">bar</div>
 ```
+
+## TODO
+
+- set html attrs and innerText, not just innerHTML
 
 ## License
 
