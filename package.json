@@ -1,0 +1,25 @@
+{
+  "name": "fold",
+  "author": {
+    "name": "Max Ogden",
+    "email": "max@maxogden.com",
+    "url": "http://maxogden.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxogden/fold.git"
+  },
+  "license": {
+    "type": "BSD",
+    "url": "http://github.com/maxogden/fold/raw/master/readme.md"
+  },
+  "version": "0.0.1",
+  "description": "simple templating library for node and browsers that uses css selectors and plain html",
+  "keywords": ["templating", "css", "simple", "template", "templates", "html"],
+  "dependencies": {
+    "cheerio": "0.10.1"
+  },
+  "scripts": {
+    "test": "node test/node_test.js"
+  }
+}
